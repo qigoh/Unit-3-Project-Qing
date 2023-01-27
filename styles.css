@@ -1,0 +1,163 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+	background-color: black;
+    background-image: url("https://t4.ftcdn.net/jpg/02/15/94/83/360_F_215948377_kgIhNUy4X0iYsyUfYd9KKIViSPOxclbC.jpg");
+    background-attachment: fixed;
+}
+
+img {
+    width: 350px;
+}
+
+button {
+    width:300px !important;
+    height:200px !important;
+    border-radius:20px;
+    font-size:50px;
+}
+
+.option-one {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 800;
+    color:white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.title4 {
+    position:relative;
+    top: 500px;
+    z-index:1;
+    color:black;
+    font-family:Brush Script MT,cursive;
+    font-size: 100px;
+}
+
+.spongebob {
+    position:absolute !important;
+    width:50%;
+    z-index:0;
+    right:25%;
+    top:100%;
+}
+
+.option-one {
+    margin:10%;
+}
+
+.option-two {
+    margin:10%;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color:white;
+}
+
+.images {
+
+}
+
+.googleClassroom {
+    position:absolute;
+    z-index:0;
+    left:40%;
+}
+
+.tiktok {
+    position: absolute;
+    z-index:1;
+	left:40%;
+}
+
+.skull {
+    text-align:center;
+    position:absolute !important;
+    animation: red 4s;
+    margin:auto;
+    width:50%;
+    right:25%;
+    top:100%;
+}
+
+.deadImage {
+    display:block;
+    text-align:center;
+    align-items:center;
+    position:relative;
+}
+
+@keyframes changeImage {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes swapImage {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+/* 
+.story-opening{
+   display:none;
+}
+*/
+
+/* 
+.buttons{
+   display:none;
+}
+*/
+
+/* 
+.open-one-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-two-screen{
+   display:none;
+}
+*/
+
+/* 
+.open-one-end{
+   display:none;
+}
+*/
+
+/* 
+.open-two-end{
+   display:none;
+}
+*/
